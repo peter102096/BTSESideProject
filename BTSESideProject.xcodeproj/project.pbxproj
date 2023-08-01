@@ -131,8 +131,8 @@
 		D049BFAD2A777A920032F797 /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				D049BFAE2A777AA30032F797 /* Extensions */,
 				D049BFCD2A77AB5F0032F797 /* API.swift */,
+				D049BFAE2A777AA30032F797 /* Extensions */,
 				D049BFCF2A77ABC70032F797 /* ResultModel.swift */,
 				D049BFBF2A7780970032F797 /* ViewModelType.swift */,
 			);
@@ -163,10 +163,10 @@
 		D049BFB22A777BFE0032F797 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D049BFC92A77A8F90032F797 /* HomeItem.swift */,
 				D049BFC12A77822B0032F797 /* MarketModelResponse.swift */,
 				D049BFC72A77954A0032F797 /* PriceModelResponse.swift */,
 				D049BFC32A7792100032F797 /* WebSocketModel.swift */,
-				D049BFC92A77A8F90032F797 /* HomeItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 		D049BFBA2A777EC10032F797 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				D049BFC52A7793010032F797 /* WebSocketModel+WebSocketDelegate.swift */,
 				D049BFCB2A77A9500032F797 /* PriceDataModel+HomeItem.swift */,
 				D049BFD32A78D7650032F797 /* ViewController+UITableView.swift */,
+				D049BFC52A7793010032F797 /* WebSocketModel+WebSocketDelegate.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";

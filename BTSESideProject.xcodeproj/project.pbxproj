@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		228B3A0FEB7939A7E734D198 /* Pods_NogleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE43AE21A5E7C1289414F5E /* Pods_NogleProject.framework */; };
+		63D2D89665658669F4226C5A /* Pods_BTSESideProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF57C2792741FAE25379BB9 /* Pods_BTSESideProject.framework */; };
 		D049BF9A2A7779030032F797 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049BF992A7779030032F797 /* AppDelegate.swift */; };
 		D049BF9C2A7779030032F797 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049BF9B2A7779030032F797 /* SceneDelegate.swift */; };
 		D049BF9E2A7779030032F797 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D049BF9D2A7779030032F797 /* ViewController.swift */; };
@@ -36,9 +36,9 @@
 
 /* Begin PBXFileReference section */
 		126FA2C53067E9E60AD4D67A /* Pods-NogleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NogleProject.debug.xcconfig"; path = "Target Support Files/Pods-NogleProject/Pods-NogleProject.debug.xcconfig"; sourceTree = "<group>"; };
-		6AE43AE21A5E7C1289414F5E /* Pods_NogleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NogleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC6D9DAF46936796D8EB907 /* Pods-BTSESideProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTSESideProject.debug.xcconfig"; path = "Target Support Files/Pods-BTSESideProject/Pods-BTSESideProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C304268F31FCC56E8E848ADA /* Pods-NogleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NogleProject.release.xcconfig"; path = "Target Support Files/Pods-NogleProject/Pods-NogleProject.release.xcconfig"; sourceTree = "<group>"; };
-		D049BF962A7779030032F797 /* NogleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NogleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D049BF962A7779030032F797 /* BTSESideProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTSESideProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D049BF992A7779030032F797 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D049BF9B2A7779030032F797 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D049BF9D2A7779030032F797 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +64,8 @@
 		D049BFD72A78E3B00032F797 /* UIViewController+RxAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RxAdditions.swift"; sourceTree = "<group>"; };
 		D049BFD92A78E3F80032F797 /* ObserableType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObserableType+Extensions.swift"; sourceTree = "<group>"; };
 		D049BFDB2A78F7FE0032F797 /* UILabel+Fluent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Fluent.swift"; sourceTree = "<group>"; };
+		D79BB7939C257912A4730903 /* Pods-BTSESideProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTSESideProject.release.xcconfig"; path = "Target Support Files/Pods-BTSESideProject/Pods-BTSESideProject.release.xcconfig"; sourceTree = "<group>"; };
+		FCF57C2792741FAE25379BB9 /* Pods_BTSESideProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTSESideProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				228B3A0FEB7939A7E734D198 /* Pods_NogleProject.framework in Frameworks */,
+				63D2D89665658669F4226C5A /* Pods_BTSESideProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,8 @@
 			children = (
 				126FA2C53067E9E60AD4D67A /* Pods-NogleProject.debug.xcconfig */,
 				C304268F31FCC56E8E848ADA /* Pods-NogleProject.release.xcconfig */,
+				2AC6D9DAF46936796D8EB907 /* Pods-BTSESideProject.debug.xcconfig */,
+				D79BB7939C257912A4730903 /* Pods-BTSESideProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -90,7 +94,7 @@
 		7E4D9823CCE1E8676B4C21CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AE43AE21A5E7C1289414F5E /* Pods_NogleProject.framework */,
+				FCF57C2792741FAE25379BB9 /* Pods_BTSESideProject.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,7 +102,7 @@
 		D049BF8D2A7779030032F797 = {
 			isa = PBXGroup;
 			children = (
-				D049BF982A7779030032F797 /* NogleProject */,
+				D049BF982A7779030032F797 /* BTSESideProject */,
 				D049BF972A7779030032F797 /* Products */,
 				3C6211261CBA53E73BF89D8C /* Pods */,
 				7E4D9823CCE1E8676B4C21CE /* Frameworks */,
@@ -108,12 +112,12 @@
 		D049BF972A7779030032F797 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D049BF962A7779030032F797 /* NogleProject.app */,
+				D049BF962A7779030032F797 /* BTSESideProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D049BF982A7779030032F797 /* NogleProject */ = {
+		D049BF982A7779030032F797 /* BTSESideProject */ = {
 			isa = PBXGroup;
 			children = (
 				D049BFAD2A777A920032F797 /* Commons */,
@@ -121,7 +125,7 @@
 				D049BFB42A777C090032F797 /* Res */,
 				D049BFB12A777BF60032F797 /* View */,
 			);
-			path = NogleProject;
+			path = BTSESideProject;
 			sourceTree = "<group>";
 		};
 		D049BFAD2A777A920032F797 /* Commons */ = {
@@ -228,9 +232,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D049BF952A7779030032F797 /* NogleProject */ = {
+		D049BF952A7779030032F797 /* BTSESideProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D049BFAA2A7779040032F797 /* Build configuration list for PBXNativeTarget "NogleProject" */;
+			buildConfigurationList = D049BFAA2A7779040032F797 /* Build configuration list for PBXNativeTarget "BTSESideProject" */;
 			buildPhases = (
 				3960ACFAD04DC38988358421 /* [CP] Check Pods Manifest.lock */,
 				D049BF922A7779030032F797 /* Sources */,
@@ -242,9 +246,9 @@
 			);
 			dependencies = (
 			);
-			name = NogleProject;
+			name = BTSESideProject;
 			productName = NogleProject;
-			productReference = D049BF962A7779030032F797 /* NogleProject.app */;
+			productReference = D049BF962A7779030032F797 /* BTSESideProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -262,7 +266,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D049BF912A7779030032F797 /* Build configuration list for PBXProject "NogleProject" */;
+			buildConfigurationList = D049BF912A7779030032F797 /* Build configuration list for PBXProject "BTSESideProject" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -275,7 +279,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D049BF952A7779030032F797 /* NogleProject */,
+				D049BF952A7779030032F797 /* BTSESideProject */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +314,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NogleProject-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BTSESideProject-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -323,15 +327,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NogleProject/Pods-NogleProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BTSESideProject/Pods-BTSESideProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NogleProject/Pods-NogleProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-BTSESideProject/Pods-BTSESideProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NogleProject/Pods-NogleProject-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BTSESideProject/Pods-BTSESideProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,7 +506,7 @@
 		};
 		D049BFAB2A7779040032F797 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 126FA2C53067E9E60AD4D67A /* Pods-NogleProject.debug.xcconfig */;
+			baseConfigurationReference = 2AC6D9DAF46936796D8EB907 /* Pods-BTSESideProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -510,7 +514,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4K27VLK2T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NogleProject/Res/Info.plist;
+				INFOPLIST_FILE = BTSESideProject/Res/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -531,7 +535,7 @@
 		};
 		D049BFAC2A7779040032F797 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C304268F31FCC56E8E848ADA /* Pods-NogleProject.release.xcconfig */;
+			baseConfigurationReference = D79BB7939C257912A4730903 /* Pods-BTSESideProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -539,7 +543,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4K27VLK2T;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NogleProject/Res/Info.plist;
+				INFOPLIST_FILE = BTSESideProject/Res/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -561,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D049BF912A7779030032F797 /* Build configuration list for PBXProject "NogleProject" */ = {
+		D049BF912A7779030032F797 /* Build configuration list for PBXProject "BTSESideProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D049BFA82A7779040032F797 /* Debug */,
@@ -570,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D049BFAA2A7779040032F797 /* Build configuration list for PBXNativeTarget "NogleProject" */ = {
+		D049BFAA2A7779040032F797 /* Build configuration list for PBXNativeTarget "BTSESideProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D049BFAB2A7779040032F797 /* Debug */,
